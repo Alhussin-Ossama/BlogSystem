@@ -91,4 +91,4 @@ Contributions are welcome! Fork the repository, raise issues, or submit pull req
 
 ## 📧 Contact  
 📩 **Email**: [hussinossama44@gmail.com](mailto:hussinossama44@gmail.com)  
-🔗 **GitHub**: [Alhussin-Ossama](https://github.com/Alhussin-Ossama/BlogSystem)  
+🔗 **GitHub**: [Alhussin-Ossama](https://github.com/Alhussin-Ossama)  
