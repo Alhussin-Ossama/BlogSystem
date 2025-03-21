@@ -1,41 +1,102 @@
-# 📌 Blog System API  
+### 📌 Blog System API  
 
-A **role-based** blog management system built with **ASP.NET Core 8**, featuring **authentication, post management, commenting, and moderation**.  
+A **role-based** blogging platform built with **ASP.NET Core 8**, enabling **secure post management, commenting, and user authentication** with advanced search and filtering capabilities.  
+
+---
 
 ## 🚀 Features  
-- **JWT Authentication & RBAC** (Admin, Editor, Reader).  
-- **Blog Post Management:** Create, edit, delete, and categorize posts.  
-- **Commenting System:** Nested replies with moderation.  
-- **Search & Filtering:** Find posts by title, category, or tags.  
-- **Optimized Performance:** EF Core, Specification Pattern, Middleware for error handling.  
-- **Secure API:** ASP.NET Identity, JWT, Logging.  
+
+- 🔑 **JWT Authentication & Role-Based Access Control (RBAC)**  
+- 📝 **Create, Edit, and Delete Blog Posts** (Admin, Editor)  
+- 💬 **Commenting & Replies** (Reader, Editor, Admin)  
+- 🔍 **Search by Title, Category, or Tags**  
+- 🎯 **Filter Posts by Status (Draft, Published, Archived)**  
+- 🛠️ **Specification Pattern & Middleware for Performance & Error Handling**  
+
+---
 
 ## 🛠️ Tech Stack  
-**Backend:** ASP.NET Core 8, Entity Framework Core  
-**Auth:** ASP.NET Identity, JWT  
-**Database:** SQL Server  
-**Docs:** Swagger/Postman  
-**Deployment:** GitHub, Docker, Azure  
+
+- **Backend**: ASP.NET Core 8 Web API, Entity Framework Core  
+- **Database**: SQL Server  
+- **Authentication**: JWT Tokens, ASP.NET Identity  
+- **API Documentation**: Swagger / Postman  
+
+---
 
 ## 📜 API Endpoints  
-🔑 **Auth:** Register/Login (JWT)  
-📝 **Posts:** CRUD posts, filter by status  
-💬 **Comments:** Nested replies, moderation  
-🔍 **Search:** Find posts by title, tags, or category  
 
-## ⚙️ Setup  
-1️⃣ **Clone:** `git clone https://github.com/yourusername/blog-system-api.git`  
-2️⃣ **Config DB:** Update `appsettings.json` → Run `dotnet ef database update`  
-3️⃣ **Run:** `dotnet run` → Open **`http://localhost:5000`**  
+### 🔑 Authentication  
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| `POST` | `/api/account/register` | Register a new user |
+| `POST` | `/api/account/login` | Authenticate and get a JWT token |
+| `GET`  | `/api/account/getcurrentuser` | Retrieve logged-in user details |
 
-📌 **GitHub:** 
-https://github.com/Alhussin-Ossama/BlogSystem 
+### 📝 Blog Posts  
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| `GET`  | `/api/posts` | Get all posts |
+| `GET`  | `/api/posts/{id}` | Get post by ID |
+| `POST` | `/api/posts` | Create a new post (Admin, Editor) |
+| `PUT`  | `/api/posts/{id}` | Update an existing post (Admin, Editor) |
+| `DELETE` | `/api/posts/{id}` | Delete a post (Admin) |
 
+### 💬 Comments & Replies  
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| `GET`  | `/api/comments/{postId}` | Get comments for a post |
+| `POST` | `/api/comments` | Add a comment to a post (Reader, Editor, Admin) |
+| `POST` | `/api/comments/reply` | Add a reply to a comment (Reader, Editor, Admin) |
+| `PUT`  | `/api/comments/{id}` | Edit a comment (Owner, Admin) |
+| `DELETE` | `/api/comments/{id}` | Delete a comment (Admin) |
 
+### 🔎 Search & Filtering  
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| `GET`  | `/api/posts/search?title=...&category=...&tag=...` | Search posts by title, category, or tags |
+| `GET`  | `/api/posts/filter?status=draft` | Filter posts by status (Draft, Published, Archived) |
 
+---
 
+## ⚙️ Installation & Setup  
 
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/Alhussin-Ossama/BlogSystem.git
+cd BlogSystem/BlogSystem.API
+```
 
+### 2️⃣ Configure the Database  
+Update `appsettings.json` with your **SQL Server connection string**.
 
+### 3️⃣ Apply Migrations & Seed Data  
+```sh
+dotnet ef database update
+```
 
+### 4️⃣ Run the API  
+```sh
+dotnet run
+```
 
+### 5️⃣ Access API Documentation  
+Open your browser and go to:  
+🔗 [`http://localhost:port/swagger`](http://localhost:port/swagger)  
+
+---
+
+## 🔮 Future Enhancements  
+- ☁ **Cloud Deployment (Azure/AWS)**  
+- 📊 **Enhanced UI with React Dashboard**  
+- 🤖 **AI-powered Content Moderation**  
+- 📱 **Mobile App for Blog Management**  
+
+---
+
+## 🤝 Contributing  
+Contributions are welcome! Fork the repository, raise issues, or submit pull requests. 🚀  
+
+## 📧 Contact  
+📩 **Email**: [hussinossama44@gmail.com](mailto:hussinossama44@gmail.com)  
+🔗 **GitHub**: [Alhussin-Ossama](https://github.com/Alhussin-Ossama/BlogSystem)  
