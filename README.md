@@ -86,14 +86,6 @@ Open your browser and go to:
 
 ---
 
-## 🔮 Future Enhancements  
-- ☁ **Cloud Deployment (Azure/AWS)**  
-- 📊 **Enhanced UI with React Dashboard**  
-- 🤖 **AI-powered Content Moderation**  
-- 📱 **Mobile App for Blog Management**  
-
----
-
 ## 🤝 Contributing  
 Contributions are welcome! Fork the repository, raise issues, or submit pull requests. 🚀  
 
