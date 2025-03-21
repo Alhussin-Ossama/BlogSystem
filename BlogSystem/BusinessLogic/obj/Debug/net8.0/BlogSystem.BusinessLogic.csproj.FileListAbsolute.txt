@@ -1,0 +1,15 @@
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\bin\Debug\net8.0\BlogSystem.BusinessLogic.deps.json
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\bin\Debug\net8.0\BlogSystem.BusinessLogic.dll
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\bin\Debug\net8.0\BlogSystem.BusinessLogic.pdb
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\bin\Debug\net8.0\BlogSystem.DataAccess.dll
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\bin\Debug\net8.0\BlogSystem.DataAccess.pdb
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\obj\Debug\net8.0\BlogSystem.BusinessLogic.csproj.AssemblyReference.cache
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\obj\Debug\net8.0\BlogSystem.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\obj\Debug\net8.0\BlogSystem.BusinessLogic.AssemblyInfoInputs.cache
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\obj\Debug\net8.0\BlogSystem.BusinessLogic.AssemblyInfo.cs
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\obj\Debug\net8.0\BlogSystem.BusinessLogic.csproj.CoreCompileInputs.cache
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\obj\Debug\net8.0\BlogSyst.6D07387C.Up2Date
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\obj\Debug\net8.0\BlogSystem.BusinessLogic.dll
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\obj\Debug\net8.0\refint\BlogSystem.BusinessLogic.dll
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\obj\Debug\net8.0\BlogSystem.BusinessLogic.pdb
+F:\ITIdotNet\Projects\CVProjects\BlogSystem\BusinessLogic\obj\Debug\net8.0\ref\BlogSystem.BusinessLogic.dll
